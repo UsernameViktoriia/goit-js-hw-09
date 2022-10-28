@@ -16,3 +16,41 @@ img {
   display: block;
   max-width: 100%;
 }
+ #datetime-picker {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(243, 243, 161);
+  color:rgba(0, 150, 192, 0.934);
+  border: 2px solid rgba(0, 150, 192, 0.934);
+}
+button {
+display: block;
+  margin: 20px auto;
+  padding: 20px 20px;
+  background-color: rgba(0, 200, 255, 0.934);
+  color:gold;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 50%;
+  border-color: gold;
+  text-align: center;
+  cursor: pointer;
+}
+button[disabled] {
+  background-color:rgba(0, 150, 192, 0.934);
+  cursor: not-allowed;
+}
+.timer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.field {
+  color:rgba(0, 150, 192, 0.934);
+  font-weight: 700;
+}

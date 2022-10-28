@@ -8,7 +8,6 @@ btnStop.setAttribute('disabled', 'disabled');
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-// const color = getRandomHexColor();
 
 const onClickStart = () => {
   body.style.backgroundColor = getRandomHexColor();
@@ -18,6 +17,7 @@ const onClickStart = () => {
   btnStart.setAttribute('disabled', 'disabled');
   btnStop.removeAttribute('disabled', 'disabled');
 };
+
 const onClickStop = () => {
   clearInterval(timerId);
   btnStop.setAttribute('disabled', 'disabled');
